@@ -1,0 +1,26 @@
+@CHARSET "utf-8";
+.form-control {
+      border-radius: 0;
+  }
+.container {
+  width: 100%;  
+  margin: auto;
+  position: fixed;
+  top: 30%; left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);  
+}
+#login {
+	margin-left: 35%;
+	margin-right: 35%;		
+	padding: 20px 20px 20px 20px;	
+}
+.btn-warning {
+	background-color: #F26F21;
+}
+#logo {
+	margin-left: 35%;
+	margin-right: 39%;
+	margin-bottom: 20px;
+}

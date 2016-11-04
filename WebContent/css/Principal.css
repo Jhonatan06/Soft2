@@ -1,0 +1,112 @@
+@CHARSET "utf-8";
+.navbar-header {
+	padding-right: 2%;
+}
+a {
+	color: black;
+	font-size: 19.5px;	
+}
+a:focus, a:hover, a:active {
+	color: #F26F21;
+}
+.nav li a:hover {
+	background-color: white;
+}
+.navbar {
+	padding-top: 15px;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-bottom: 15px;
+}
+.nav a.raya:hover,
+.nav a.raya:active,
+.nav a.raya:focus{
+	border-bottom-color: #F26F21;
+	border-bottom-style: solid; 
+}
+.leftheading {
+	color: #F26F21;	
+}
+
+aside {
+	top: 10%;
+	left: 2%;
+	position: absolute;
+	display: inline-block;	
+	max-width: 20%;
+}
+.leftbar {
+	list-style-type: none;	
+}
+.leftbar h4 {
+	display: inline-block;
+	margin-left: 1%;
+}
+section {
+	position: absolute;
+	top: 10%;
+	left: 24%;
+	display: inline-block;	
+	width: 75%;
+	height: 70%;		
+}
+.section-titulo {
+	font-size: 19.5px;
+	color: #F26F21;
+}
+.form-group {
+	display: inline-block;	
+}
+.form-control {
+      border-radius: 0;
+  }
+td .form-control {
+	width: 70px;
+}
+.confirmacion {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.confirmacion h4, .confirmacion span {
+	display: inline-block;
+	margin-right: 5px;
+	font-size: 19.5px;
+}
+.btn-agregar{
+	right: 1%;
+	position: absolute;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.btn-agregar span{
+	padding-right: 10px;
+}
+.btn-success span{
+	padding-right: 10px;
+	
+}
+.form-group .btn-success {
+	margin-top: 25px;
+	right: 3.5%;
+	position: fixed;	
+}
+
+.hola{	
+	top:70px;
+	left:30%;
+	width:850px;
+	height:500px;
+	position: absolute;
+}
+
+h2{
+	color:#F26F21;
+}
+
+.row{
+	padding:20px;
+}
+
+
